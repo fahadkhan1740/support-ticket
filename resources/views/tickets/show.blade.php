@@ -1,7 +1,6 @@
 @extends('master')
 @section('title', 'View a ticket')
 @section('content')
-
     <div class="container col-md-8 col-md-offset-2">
         <div class="well well bs-component">
             <div class="content">
@@ -13,5 +12,4 @@
             <a href="/ticket/{{$ticket->slug}}/delete" class="btn btn-danger">Delete</a>
         </div>
     </div>
-
 @endsection
